@@ -25,8 +25,8 @@ module.exports = {
                 }
                 let media = await quoted.download();
                 let encmedia = await fuzzy.sendVideoAsSticker(m.chat, media, m, {
-                    packname: global.packname,
-                    author: global.author
+                     packname: "Yare-Yare Bot",
+                     author: "dibuat oleh F"
                 });
                 await fs.unlinkSync(encmedia);
             } catch (error) {
