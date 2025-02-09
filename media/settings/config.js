@@ -13,16 +13,16 @@ const version = require("@whiskeysockets/baileys/package.json").version
 // ['1','2','3','4']
 global.botname = "Yare-Yare Bot"
 global.ownerNumber = [`${global.owner}`,'no2','no3'] // no owner yang dapat mengakses all fitur
-global.email = '@gmail.com' // kosongkan jika tidak punya
-global.web = '.com' // kosongkan jika tidak punya
-global.location = 'Banten' // isi daerah mu atau tempat tinggal mu jika tidak mau kosongkan
-global.packname = 'Yare-Yare bot' // wm yg ada di sticker
+global.email = 'Secret' // kosongkan jika tidak punya
+global.web = 'Secret' // kosongkan jika tidak punya
+global.location = 'Pare-pare' // isi daerah mu atau tempat tinggal mu jika tidak mau kosongkan
+global.packname = 'Yare-Yare Bot' // wm yg ada di sticker
 global.author = 'dibuat oleh F' // wm yg ada di sticker
-global.imgUrl = "https://8030.us.kg/file/3BKmPkUiRgkn.jpg" // ubah menggunakan !setimgbot
-global.menuimgUrl = "https://8030.us.kg/file/e5W16g7sTj27.jpg" // ubah menggunakan !setimgmenu
+global.imgUrl = "https://8030.us.kg/file/3FNpEmwNoBVQ.jpg" // ubah menggunakan !setimgbot
+global.menuimgUrl = "https://8030.us.kg/file/3FNpEmwNoBVQ.jpg" // ubah menggunakan !setimgmenu
 
 global.idch = "channel kalian"
-global.namech = "- Mayura bot -"
+global.namech = "- Yare-Yare Bot -"
 
 global.mess = {
     group: "Fitur Hanya Digunakan Untuk Grup!",
