@@ -119,7 +119,7 @@ let datauser = JSON.parse(fs.readFileSync('./media/database/datauser.json'))
 
 const isUser = datauser.includes(m.sender)
 //================== [ TIME ] ==================//
-const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
+const Today = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const wib = moment.tz('Asia/Jakarta').format('HH : mm : ss')
 const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
 const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
@@ -314,7 +314,7 @@ switch(command) {
 case 'script':{
 reply(`
 ▧ 「 *LINK SCRIPT* 」
-│
+│    Secret
 ┗─────────────
 `)
 }
@@ -333,17 +333,17 @@ let speed = require('performance-now')
 let timestampe = speed();
 let latensie = speed() - timestampe
 menu =`
-Hai haii ${ucapanWaktu} 👋
+Hai ${ucapanWaktu} 👋
 
 *[ I N F O - B O T ]*
 *Name*: ${global.botname}
-*Version*: beta 1.0.0
+*Version*: 5.0.0
 *Speed*: ${latensie.toFixed(4)} detik
 *totalUser*: ${datauser.length}
 *Runtime*: ${runtime(process.uptime())}
 
 *[ T I M E ]*
-*hariini*: ${hariini}
+*Today*: ${Today}
 *wib*: ${wib}
 *wita*: ${wita}
 *wit*: ${wit}
@@ -428,11 +428,7 @@ Hai haii ${ucapanWaktu} 👋
 ┗─────────────❐
 
 ┏─ *TQ TO:*
-│   - ${global.ownername} (owner)
-│   - xZiyy
-│   - yanzdev
-│   - Siputzx Api
-│   - Clairity Api
+│   - ${global.ownername} (Dev)
 │   - And All Creator
 ┗─────────────❐
 `
