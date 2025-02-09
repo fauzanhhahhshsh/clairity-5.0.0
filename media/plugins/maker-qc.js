@@ -20,8 +20,8 @@ module.exports = {
         try {
             const rest = await quotedark(q, pushname, ppuser);
             await fuzzy.sendImageAsSticker(m.chat, rest.result, m, {
-                packname: global.packname,
-                author: global.author
+                packname: "Yare-Yare Bot",
+                author: "dibuat oleh F"
             });
         } catch (error) {
             console.error('Error saat membuat quote:', error.message);
