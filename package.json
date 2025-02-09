@@ -1,12 +1,12 @@
 {
-  "name": "Mayura",
-  "version": "1.0.0",
+  "name": "Yare-Yare",
+  "version": "5.0",
   "description": "a simple Javascript",
   "main": "exec.js",
   "scripts": {
     "start": "node exec.js"
   },
-  "author": "xZiyy",
+  "author": "F",
   "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
